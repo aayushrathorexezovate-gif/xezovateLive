@@ -1,0 +1,42 @@
+.landingPageContainer {
+  width:100vw;
+  height : 100vh;
+  background: url("/Brown Gradient Virtual Meeting Room For Zoom Virtual Background (3).jpg");
+  background-size: cover;
+
+}
+.logo{
+  width:10vw;
+  height:10vh;
+}
+
+.xezoLogo{
+  text-decoration: solid bold;
+}
+
+.nav-items{
+   margin-Top:"10px",
+}
+
+.xezovate{
+ font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 0cap;
+  color:rgb(234, 234, 164);
+  text-decoration: none;
+   text-transform: uppercase;
+   margin-top: 80px;
+   align-items: center;
+}
+
+.navbar-nav  {
+  display:flex;
+  width:100%; 
+}
+
+.right-item {
+  margin-left: auto;   /* 👈 This pushes items to right */
+}
+

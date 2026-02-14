@@ -1,0 +1,106 @@
+.meetVideoContainer{
+    position: relative;
+    height: 100vh;
+    background-color:rgb(14, 25, 17);
+    
+}
+
+.meetUserContainer{
+    position : absolute;
+    bottom : 10vh;
+    height: 20vh;
+    width:auto;
+    left:0;
+    border-radius: 20px;
+
+}
+
+.conferenceView{ 
+   display: flex;
+  flex-wrap: wrap;        /* 🔥 Important */
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.conferenceView  video {
+    width : 40vm;
+    height: 20vh;
+    min-width : 30vm;
+    border-radius: 20px;
+
+}
+
+.buttonContainer{
+    position : absolute;
+     width : 100vw;
+     bottom : 0;
+     text-align : center;
+}
+
+.buttonContainer svg{
+    font-size:40px;
+}
+
+.chatRoom{
+    
+  position: absolute;   /* IMPORTANT */
+  right: 0;             /* Stick to right */
+  top: 0;
+  height: 94vh;        /* Full height */
+  width: 350px;         /* Fixed width */
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+  border-radius:10px;
+}
+
+.chatContainer{
+    height: 100%;
+    width: 350px; 
+  display: flex;
+  flex-direction: column;
+  right:0;
+    
+}
+
+.chatArea{
+    display: flex;
+   margin-left: 20px;
+  gap: 10px;
+  width:300px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-radius:10px;
+  background: white;
+    
+}
+
+/* .chatSender{
+    margin-bottom:10px;
+} */
+
+.chattingArea{
+    background-color: rgb(255, 249, 250);
+    flex:1;
+   
+  overflow-y: auto;
+  padding: 10px;
+  scrollbar-color: red orange;
+  scrollbar-width: thin;
+}
+
+.lobby{
+    margin-top:20%;
+    margin-left:100px;
+    color:black;
+}
+
+.vedioLobby{
+    margin-top:15%;
+    margin-right:30%;
+    border-radius: 20px;
+}

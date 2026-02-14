@@ -1,0 +1,28 @@
+import mongoose, { Schema } from "mongoose";
+
+const userSchema = new Schema(
+    {
+        name : {
+            type : String,
+            required :true,
+            unique : true,
+        },
+
+        username : {
+            type:String,
+            required : true , 
+            unique : true,
+        },
+        password : {
+            type: String,
+            required : true,
+        },
+        token : {
+            type :String,
+        }
+    }
+)
+
+const Users = mongoose.model("Users" , userSchema);
+
+export {Users};
